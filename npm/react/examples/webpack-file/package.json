@@ -10,5 +10,10 @@
   },
   "devDependencies": {
     "@cypress/react": "file:../../dist"
+  },
+  "nyc": {
+    "exclude": [
+      "**/calc.js"
+    ]
   }
 }
